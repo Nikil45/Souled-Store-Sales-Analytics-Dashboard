@@ -1,30 +1,18 @@
 # 🛍️ Souled Store — Sales Analytics Dashboard
 
-!\[Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
-!\[SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-!\[Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge\&logo=microsoft-excel\&logoColor=white)
-!\[Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-!\[Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-
-> \*\*An end-to-end business analytics project analysing Souled Store's sales, customer behaviour, regional performance, courier operations, and product trends — with data-backed business decisions derived directly from 12,511 order records.\*\*
-
-\---
-
 ## 📌 Table of Contents
 
-* [Project Overview](#-project-overview)
-* [Dataset Description](#-dataset-description)
-* [Tools \& Technologies](#-tools--technologies)
-* [Dashboard Overview](#-dashboard-overview)
-* [Key Insights from Data](#-key-insights-from-data)
-* [Business Problems Identified](#-business-problems-identified)
-* [Business Decisions \& Recommendations](#-business-decisions--recommendations)
-* [SQL Queries](#-sql-queries)
-* [Project Structure](#-project-structure)
-* [How to Use](#-how-to-use)
-* [Author](#-author)
-
-\---
+* [Project Overview]
+* [Dataset Description]
+* [Tools \& Technologies]
+* [Dashboard Overview]
+* [Key Insights from Data]
+* [Business Problems Identified]
+* [Business Decisions \& Recommendations]
+* [SQL Queries]
+* [Project Structure]
+* [How to Use]
+* [Author]
 
 ## 📋 Project Overview
 
@@ -523,73 +511,6 @@ FROM souled\_store
 GROUP BY PaymentMethod, PaymentStatus
 ORDER BY PaymentMethod, Total\_Revenue DESC;
 ```
-
-\---
-
-## 📁 Project Structure
-
-```
-souled-store-analytics/
-│
-├── 📊 dashboard/
-│   └── SOULED\_STORE.pbix               # Power BI dashboard (11 pages)
-│
-├── 📸 screenshots/
-│   ├── dashboard.png                    # Main dashboard screenshot
-│   ├── kpi\_summary.png
-│   ├── monthly\_trend.png
-│   ├── zone\_analysis.png
-│   ├── city\_revenue.png
-│   ├── category.png
-│   ├── payment.png
-│   ├── device.png
-│   └── region\_breakdown.png
-│
-├── 📂 data/
-│   └── Souled\_Store.csv                 # Raw dataset (12,511 records, 28 columns)
-│
-├── 🗄️ sql/
-│   ├── 01\_revenue\_by\_region.sql
-│   ├── 02\_top\_cities.sql
-│   ├── 03\_gender\_analysis.sql
-│   ├── 04\_cod\_risk\_analysis.sql
-│   ├── 05\_courier\_performance.sql
-│   ├── 06\_exclusive\_revenue.sql
-│   ├── 07\_device\_type.sql
-│   ├── 08\_top\_brands.sql
-│   ├── 09\_zone\_analysis.sql
-│   └── 10\_payment\_risk.sql
-│
-└── README.md                            # This file
-```
-
-\---
-
-## ▶️ How to Use
-
-### 1\. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/souled-store-analytics.git
-cd souled-store-analytics
-```
-
-### 2\. Open Power BI Dashboard
-
-* Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-* Open `dashboard/SOULED\_STORE.pbix`
-* If prompted, update data source path to `data/Souled\_Store.csv`
-* Click **Refresh** to reload all data
-
-### 3\. Run SQL Queries
-
-```sql
--- Import Souled\_Store.csv into MySQL / SQL Server / PostgreSQL
--- Run any query from the sql/ folder
--- Tested on MySQL 8.0+ and SQL Server 2019+
-```
-
-\---
 
 ## 👤 Author
 
