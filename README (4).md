@@ -97,7 +97,7 @@ The Power BI dashboard (`new_soul_store.pbix`) contains **1 consolidated page** 
 
 ### Dashboard Screenshot
 
-![The Souled Store Dashboard](./screenshots/dashboard.png)
+<img width="1293" height="724" alt="image" src="https://github.com/user-attachments/assets/d781a69a-97af-4aaf-9c1a-93be05772dad" />
 
 ---
 
@@ -535,9 +535,8 @@ new_soul_store/
 
 **Nikil Shetty**
 
-* 🔗 LinkedIn: [linkedin.com/in/nikilshetty](https://linkedin.com/in/nikilshetty)
-* 💻 GitHub: [github.com/nikilshetty](https://github.com/nikilshetty)
-* 📧 Email: your-email@gmail.com
+* 🔗 LinkedIn: https://www.linkedin.com/feed/
+* 📧 Email: nikil.k.shetty@gmail.com
 
 ---
 
