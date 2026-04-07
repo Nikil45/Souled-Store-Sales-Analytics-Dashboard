@@ -535,7 +535,7 @@ new_soul_store/
 
 **Nikil Shetty**
 
-* 🔗 LinkedIn: https://www.linkedin.com/feed/
+* 🔗 LinkedIn: www.linkedin.com/in/nikil-shetty-32a933215
 * 📧 Email: nikil.k.shetty@gmail.com
 
 ---
