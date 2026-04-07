@@ -1,6 +1,6 @@
 # 🛍️ The Souled Store — Sales Analytics Dashboard (Power BI)
 
-##"This project was built using retail data provided as part of a take-home assessment. The task was to analyze the data within 30 minutes using SQL queries. I extended the work independently by building an interactive dashboard in Excel to derive deeper insights and support business decision-making."
+"This project was built using retail data provided as part of a take-home assessment. The task was to analyze the data within 30 minutes using SQL queries. I extended the work independently by building an interactive dashboard in Excel to derive deeper insights and support business decision-making."
 
 ## 📌 Table of Contents
 
